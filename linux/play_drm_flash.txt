@@ -1,0 +1,19 @@
+In order to play drm flash protected content such as on watch espn, google play, amazon, etc, need to install hal-flash.
+
+Debian/ubuntu/mint:
+
+1. clone the hal flash repo: https://github.com/cshorler/hal-flash
+2. sudo apt-get install libglib2.0-dev libdbus-1-dev libtool automake autoconf gcc
+3. autoreconf -i
+4. ./configure
+5. make
+6. sudo make install (will install to /usr/local/lib)
+
+No need to restart firefox.  Just follow instructions from hal-flash to test
+
+Adobe provides a test web page for DRM content and a test video required to run the test.
+Enter this into your browser:
+http://drmtest2.adobe.com:8080/SVP/SampleVideoPlayer_FP.html
+Enter this into the form:
+http://drmtest2.adobe.com:8080/Content/anonymous.f4v
+Press play. 
