@@ -1,21 +1,22 @@
-Visual Studio Code 
-https://code.visualstudio.com/Download
+[Visual Studio Code](https://code.visualstudio.com/Download)
 
-Master PDF Editor
-https://code-industry.net/get-masterpdfeditor/
+[Master PDF Editor](https://code-industry.net/get-masterpdfeditor/)
 
-PAC manager
-https://sourceforge.net/projects/pacmanager/
+[PAC manager](https://sourceforge.net/projects/pacmanager/)
 
-Virtual Box
-https://www.virtualbox.org/wiki/Downloads
+[Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 
-Borg Backup
-https://borgbackup.readthedocs.io/en/stable/installation.html#distribution-package
+[Borg Backup](https://borgbackup.readthedocs.io/en/stable/installation.html#distribution-package)
 
-Kazam
-https://launchpad.net/kazam
+[Kazam](https://launchpad.net/kazam)
 
-Nuvola
-https://tiliado.eu/nuvolaplayer/
+[Nuvola](https://tiliado.eu/nuvolaplayer/)
+
+[Safe Eyes](https://github.com/slgobinath/SafeEyes)
+
+```
+sudo add-apt-repository ppa:slgobinath/safeeyes
+sudo apt update
+sudo apt install safeeyes
+```
 
