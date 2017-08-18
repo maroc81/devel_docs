@@ -1,0 +1,9 @@
+
+.bashrc
+
+HISTSIZE=100000
+HISTFILESIZE=2000000
+HISTTIMEFORMAT="%d/%m/%y %T "
+
+# disable terminal "stop" command
+stty -ixon
